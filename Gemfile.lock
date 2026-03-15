@@ -1,7 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    nio4r (2.7.5)
+    puma (7.2.0)
+      nio4r (~> 2.0)
     rack (3.2.5)
+    rackup (2.3.1)
+      rack (>= 3)
     rulers (0.0.1)
       rack
 
@@ -10,10 +15,15 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  puma
+  rackup
   rulers
 
 CHECKSUMS
+  nio4r (2.7.5) sha256=6c90168e48fb5f8e768419c93abb94ba2b892a1d0602cb06eef16d8b7df1dca1
+  puma (7.2.0) sha256=bf8ef4ab514a4e6d4554cb4326b2004eba5036ae05cf765cfe51aba9706a72a8
   rack (3.2.5) sha256=4cbd0974c0b79f7a139b4812004a62e4c60b145cba76422e288ee670601ed6d3
+  rackup (2.3.1) sha256=6c79c26753778e90983761d677a48937ee3192b3ffef6bc963c0950f94688868
   rulers (0.0.1) sha256=999af91b94858ae3036e91d31c76ae27d5f84b98dc0d409d5d5985f6f2fb18f7
 
 BUNDLED WITH
