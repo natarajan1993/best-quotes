@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (3.2.5)
+    rulers (0.0.1)
+      rack
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  rulers
+
+CHECKSUMS
+  rack (3.2.5) sha256=4cbd0974c0b79f7a139b4812004a62e4c60b145cba76422e288ee670601ed6d3
+  rulers (0.0.1) sha256=999af91b94858ae3036e91d31c76ae27d5f84b98dc0d409d5d5985f6f2fb18f7
+
+BUNDLED WITH
+  4.0.3
